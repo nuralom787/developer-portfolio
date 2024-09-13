@@ -91,6 +91,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About Section */
 
 .about {
@@ -115,4 +119,25 @@ main {
 
 #what-i-do-dis {
     padding: 30px 150px;
+}
+
+/* Skill Container */
+
+.skill-container {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume Section */
+
+.review-resume {
+    text-align: center;
 }
